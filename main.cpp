@@ -7,9 +7,9 @@ using namespace std;
 
 int main()
 {
-    int a, b, c;
-    int root1, root2;
-    int discriminant;
+    double a, b, c;
+    double root1, root2;
+    double discriminant;
     
     cin >> a >> b >> c;
 
