@@ -9,9 +9,13 @@ int main()
 {
     int a, b, c;
     int root1, root2;
-    double discriminant;
+    int discriminant;
     
     cin >> a >> b >> c;
+
+    if (a == 0){
+      cout << "Invalid entry\n";
+    }
   
     discriminant = pow(b,2) - 4 * a * c;
     root1 = (-b + sqrt(discriminant))/(2 * a);
@@ -21,7 +25,7 @@ int main()
         cout << "The single root is " << root1  << "\n";
     }
       
-    else if(discriminant > 0){
+    else if(discriminant > 0 && a != 0){
       cout << "Two real roots\n";
       cout << "- First root " << root1 << "\n"; 
       cout << "- Second root " << root2 << "\n";
