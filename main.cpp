@@ -22,17 +22,17 @@ int main()
     root2 = (-b - sqrt(discriminant))/(2 * a);
 
     if (discriminant == 0){
-        cout << "The single root is " << root1  << "\n";
+        cout << "The single root is " << root1;
     }
       
     else if(discriminant > 0 && a != 0){
       cout << "Two real roots\n";
       cout << "- First root " << root1 << "\n"; 
-      cout << "- Second root " << root2 << "\n";
+      cout << "- Second root " << root2;
     }
       
     else if (discriminant < 0){
-        cout << "Complex roots\n";
+        cout << "Complex roots";
     }
 
 return 0;
